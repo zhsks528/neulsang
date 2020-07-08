@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Cat Knows`,
-    author: `CatNose`,
-    description: `CatNoseの個人ブログ。デザインやプログラミングの知見、生産性向上テクニックなどをストックしていきます。`,
+    title: `PointTechLab`,
+    author: `SeongMin Han`,
+    description: `한성민의 기술블로그입니다.`,
     siteUrl: `https://catnose99.com`,
     social: {
       twitter: `catnose99`,
+      github: `zhsks528`,
+      facebook:`hsm950825@naver.com`
     },
     categories: [
       {
-        name: "Design",
-        slug: "design",
+        name: "Web",
+        slug: "web",
         color: "#0c9ee4",
       },
       {
@@ -19,13 +21,13 @@ module.exports = {
         color: "#f7615f",
       },
       {
-        name: "Self",
-        slug: "self",
+        name: "Algorithm",
+        slug: "algorithm",
         color: "#ffa22b",
       },
       {
-        name: "Collect",
-        slug: "collect",
+        name: "Idea",
+        slug: "idea",
         color: "#ffa22b",
       },
     ],

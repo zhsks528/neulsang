@@ -98,6 +98,7 @@ const CategoryItem = styled.li`
 `;
 
 const CategoryLink = ({ catName, catIcon, catLink, path }) => {
+  
   return (
     <CategoryItem className={catLink === path && "active"}>
       <Link to={catLink} className="cat-item__link">
@@ -117,9 +118,9 @@ const CategoryMenu = ({ location }) => {
       <CategoryItemList>
         <CategoryLink catName="New" catIcon={svgNew} catLink="/" path={path} />
         <CategoryLink
-          catName="Design"
+          catName="Web"
           catIcon={svgDesign}
-          catLink="/category/design"
+          catLink="/category/web"
           path={path}
         />
         <CategoryLink
@@ -129,15 +130,15 @@ const CategoryMenu = ({ location }) => {
           path={path}
         />
         <CategoryLink
-          catName="Self"
+          catName="Algorithm"
           catIcon={svgSelf}
-          catLink="/category/self"
+          catLink="/category/algorithm"
           path={path}
         />
         <CategoryLink
-          catName="Collect"
+          catName="Idea"
           catIcon={svgCollection}
-          catLink="/category/collect"
+          catLink="/category/idea"
           path={path}
         />
       </CategoryItemList>
