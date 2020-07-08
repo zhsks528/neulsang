@@ -3,9 +3,9 @@ import { StaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import svgAvatar from "../svg/avatar.svg";
-import svgTwitter from "../svg/socials/twitter.svg";
-import svgResume from "../svg/socials/resume.svg";
-import svgEmail from "../svg/socials/email.svg";
+import svgGithub from "../svg/socials/github.svg";
+import svgInstar from "../svg/socials/instagram.svg";
+import svgFacebook from "../svg/socials/facebook.svg";
 
 const BioWrapper = styled.div`
   position: sticky;
@@ -85,34 +85,29 @@ const Bio = () => {
     <StaticQuery
       query={bioQuery}
       render={data => {
+
         const { author, social } = data.site.siteMetadata;
         return (
           <BioWrapper>
             <BioHeader>
               <AvatarImage src={svgAvatar} alt={author} />
               <BioName>
-                <a href={`https://twitter.com/${social.twitter}`}>{author}</a>
+                <a href={`https://github.com/${social.github}`}>{author}</a>
               </BioName>
             </BioHeader>
             <BioMain>
               <BioText>
-                デザイナー/フロントエンドエンジニア。自分のペースでWebサービスやWebサイトを作っています。詳しくはRESUMEをどうぞ。
+                안녕하세요. <br/>한성민입니다.
               </BioText>
               <BioLinks>
-                <BioLink href="https://www.resume.id/catnose99">
-                  <img src={svgResume} alt="RESUME" />
-                  <div>RESUME</div>
+                <BioLink href="https://www.instagram.com/hsm950825">
+                  <img src={svgInstar} alt="Instargram" />
                 </BioLink>
-                <BioLink
-                  className="bio-link--email"
-                  href="mailto:catnose99@gmail.com"
-                >
-                  <img src={svgEmail} alt="" />
-                  <div>E-mail</div>
+                <BioLink href="https://github.com/zhsks528">
+                  <img src= {svgGithub} alt="Github" />
                 </BioLink>
-                <BioLink href="https://twitter.com/catnose99">
-                  <img src={svgTwitter} alt="Twitter" />
-                  <div>Twitter</div>
+                <BioLink href="https://www.facebook.com/profile.php?id=100003864617985">
+                  <img src= {svgFacebook} alt="Facebook" />
                 </BioLink>
               </BioLinks>
             </BioMain>
@@ -136,7 +131,9 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter
+          twitter,
+          github,
+          facebook
         }
       }
     }
