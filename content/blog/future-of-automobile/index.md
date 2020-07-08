@@ -1,7 +1,7 @@
 ---
 title: "2030年 自動車の未来"
 date: "2016-08-21T19:12:03.284Z"
-category: "self"
+category: "web"
 emoji: "🚙"
 ---
 

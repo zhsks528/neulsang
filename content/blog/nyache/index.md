@@ -1,7 +1,7 @@
 ---
 title: "超訳・ニャーチェの言葉"
 date: "2019-03-21T22:12:03.284Z"
-category: "self"
+category: "algorithm"
 emoji: "🐱"
 ---
 
