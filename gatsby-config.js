@@ -28,7 +28,7 @@ module.exports = {
       {
         name: "Idea",
         slug: "idea",
-        color: "#ffa22b",
+        color: "#3CB371",
       },
     ],
   },
