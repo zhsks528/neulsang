@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import svgTwitterWhite from "../svg/socials/twitter-white.svg";
+import { FontAwesomeIcon } from '../../node_modules/@fortawesome/react-fontawesome'
+import { faGithub } from '../../node_modules/@fortawesome/free-brands-svg-icons'
 
 const Follow = styled.div`
   margin-top: 2em;
@@ -15,6 +16,7 @@ const FollowLink = styled.a`
   padding: 0;
   border-radius: 4px;
   overflow: hidden;
+  
   .follow-link-text {
     padding: 5px 7px;
     background: #dfebf3;
@@ -22,23 +24,25 @@ const FollowLink = styled.a`
     font-size: 14px;
     transition: 0.2s;
   }
-  img {
-    display: block;
-    width: 31px;
-    padding: 0 5px;
-    height: 17px;
-  }
+
   &:hover .follow-link-text {
     background: #d3ebfb;
   }
 `;
 
+const Icon = styled(FontAwesomeIcon)`
+  background : black;
+  width: 2em !important;
+  height: 2em;
+  padding: 5px;
+`
+
 const ShareButtons = () => {
   return (
     <Follow>
-      <FollowLink href="https://twitter.com/catnose99" rel="nofollow">
-        <img src={svgTwitterWhite} alt="Twitter" />
-        <div className="follow-link-text">@catnose99をフォロー</div>
+      <FollowLink href="https://github.com/zhsks528" rel="nofollow">
+        <Icon icon={faGithub} />
+        <div className="follow-link-text">@zhsks528</div>
       </FollowLink>
     </Follow>
   );
