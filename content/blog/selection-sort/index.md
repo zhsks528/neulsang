@@ -57,5 +57,5 @@ def selection_sort(data):
 
 ### 4. 알고리즘 분석
 * 반복문이 두 개 O(n^2)
-  - 실제로 상세하게 계산하면, <font size=5em>$\frac { n * (n - 1)}{ 2 }$</font>
+  - 실제로 상세하게 계산하면, { n * (n - 1)}{ 2 }
 

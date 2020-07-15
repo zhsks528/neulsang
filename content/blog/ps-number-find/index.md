@@ -53,10 +53,11 @@ for i in x:
 
 ### 설명
 
-1. hashlib의 sha256 함수를 이용하면 SHA-256 해시를 구할 수 있다.
-2. hashlib.sha256(문자열).hexdigest()
+1. 특정 정수의 등장 여부만을 간단히 체크하면 된다.
+2. Python에서는 dictionary 자료형을 해시처럼 사용할 수 있다.
+3. set 자료형을 이용하면 더욱 간단히 풀 수 있다.
 
 ### 출처
 
-- https://www.acmicpc.net/problem/10930
+- https://www.acmicpc.net/problem/1920
 
