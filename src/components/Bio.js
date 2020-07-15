@@ -7,6 +7,10 @@ import svgGithub from "../svg/socials/github.svg";
 import svgInstar from "../svg/socials/instagram.svg";
 import svgFacebook from "../svg/socials/facebook.svg";
 
+import { FontAwesomeIcon } from '../../node_modules/@fortawesome/react-fontawesome'
+import { faGithub, faInstagram, faFacebook } from '../../node_modules/@fortawesome/free-brands-svg-icons'
+
+
 const BioWrapper = styled.div`
   position: sticky;
   top: 2em;
@@ -59,12 +63,6 @@ const BioLinks = styled.div`
   color: #fff;
   text-align: center;
   max-width: 244px;
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 40px;
-    height: 33px;
-  }
 `;
 
 const BioLink = styled.a`
@@ -75,10 +73,19 @@ const BioLink = styled.a`
   line-height: 30px;
   color: ${props => props.theme.colors.gray};
   letter-spacing: 0.5px;
+  
   &:hover {
-    color: ${props => props.theme.colors.highlight};
+    color: ${props => props.theme.colors.whitesmoke};
+    transform: translateY(-2px);
   }
 `;
+
+const Icon = styled(FontAwesomeIcon)`
+  display: block;
+  margin: 0 auto;
+  width: 2em !important;
+  height: 33px;
+`
 
 const Bio = () => {
   return (
@@ -101,13 +108,16 @@ const Bio = () => {
               </BioText>
               <BioLinks>
                 <BioLink href="https://www.instagram.com/hsm950825">
-                  <img src={svgInstar} alt="Instargram" />
+                  <Icon icon={faInstagram} />
+                  {/* <img src={svgInstar} alt="Instargram" /> */}
                 </BioLink>
                 <BioLink href="https://github.com/zhsks528">
-                  <img src= {svgGithub} alt="Github" />
+                  <Icon icon={faGithub} />
+                  {/* <img src= {svgGithub} alt="Github" /> */}
                 </BioLink>
                 <BioLink href="https://www.facebook.com/profile.php?id=100003864617985">
-                  <img src= {svgFacebook} alt="Facebook" />
+                  <Icon icon={faFacebook} />
+                  {/* <img src= {svgFacebook} alt="Facebook" /> */}
                 </BioLink>
               </BioLinks>
             </BioMain>
