@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `PointTechLab`,
+    title: `NeulSang`,
     author: `SeongMin Han`,
     description: `한성민의 기술블로그입니다.`,
     siteUrl: `https://catnose99.com`,
     social: {
-      twitter: `catnose99`,
+      instagram : `hsm950825`,
       github: `zhsks528`,
       facebook:`hsm950825@naver.com`
     },

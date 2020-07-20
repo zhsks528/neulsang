@@ -28,7 +28,11 @@ const HeaderInner = styled.div`
 
   .logo-link {
     display: block;
+    color : white;
+    font-size : 2em;
+    font-weight : bold;
   }
+
   .message-link {
     position: absolute;
     right: 0;
@@ -45,7 +49,7 @@ const Header = ({ title, location }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   const logoLink = (
     <Link to={`/`} className="logo-link">
-      <img className="logo" src={svgLogo} alt={title} />
+      Neulsang
     </Link>
   );
 

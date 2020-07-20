@@ -4,13 +4,14 @@ import { Helmet } from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
 const SEO = ({ description, lang, meta, title }) => {
+  
   return (
     <StaticQuery
       query={detailsQuery}
       render={(data) => {
         const metaDescription =
           description || data.site.siteMetadata.description;
-        const defaultTitle = "CatKnows | CatNoseの個人ブログ";
+        const defaultTitle = "NeulSang | 한성민의 기술블로그";
         return (
           <Helmet
             htmlAttributes={{
