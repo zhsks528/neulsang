@@ -3,9 +3,6 @@ import { StaticQuery, graphql } from "gatsby";
 import styled from "styled-components";
 
 import svgAvatar from "../svg/avatar.svg";
-import svgGithub from "../svg/socials/github.svg";
-import svgInstar from "../svg/socials/instagram.svg";
-import svgFacebook from "../svg/socials/facebook.svg";
 
 import { FontAwesomeIcon } from '../../node_modules/@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faFacebook } from '../../node_modules/@fortawesome/free-brands-svg-icons'
@@ -109,15 +106,12 @@ const Bio = () => {
               <BioLinks>
                 <BioLink href="https://www.instagram.com/hsm950825">
                   <Icon icon={faInstagram} />
-                  {/* <img src={svgInstar} alt="Instargram" /> */}
                 </BioLink>
                 <BioLink href="https://github.com/zhsks528">
                   <Icon icon={faGithub} />
-                  {/* <img src= {svgGithub} alt="Github" /> */}
                 </BioLink>
                 <BioLink href="https://www.facebook.com/profile.php?id=100003864617985">
                   <Icon icon={faFacebook} />
-                  {/* <img src= {svgFacebook} alt="Facebook" /> */}
                 </BioLink>
               </BioLinks>
             </BioMain>
@@ -141,7 +135,7 @@ const bioQuery = graphql`
       siteMetadata {
         author
         social {
-          twitter,
+          instagram,
           github,
           facebook
         }
