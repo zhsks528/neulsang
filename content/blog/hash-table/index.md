@@ -70,7 +70,7 @@ def save_data(data, value):
     
     # Hash Table Chainig 
     if hash_table[hash_address] != 0:
-        for index in len(hash_table[has_address]):
+        for index in len(hash_table[hash_address]):
             if hash_table[hash_address][index][0] == index_key:
                 hash_table[hash_address][index][1] = value
                 return
@@ -107,8 +107,7 @@ def save_data(data, value):
     hash_address = hash_function(index_key)
     
     # Hash Table Linear Probling 
-    # 1. Hash Table에 값의 유무 확인
-    # 2. 
+    # Hash Table에 값의 유무 확인
     if hash_table[hash_address] != 0:
         for index in range(hash_address, len(hash_table)):
             if hash_table[index] == 0:
