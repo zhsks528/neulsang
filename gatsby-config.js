@@ -26,8 +26,8 @@ module.exports = {
         color: "#ffa22b",
       },
       {
-        name: "Idea",
-        slug: "idea",
+        name: "PS",
+        slug: "ps",
         color: "#3CB371",
       },
     ],

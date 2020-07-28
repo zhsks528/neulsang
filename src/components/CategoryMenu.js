@@ -136,9 +136,9 @@ const CategoryMenu = ({ location }) => {
           path={path}
         />
         <CategoryLink
-          catName="Idea"
+          catName="PS"
           catIcon={svgCollection}
-          catLink="/category/idea"
+          catLink="/category/ps"
           path={path}
         />
       </CategoryItemList>
