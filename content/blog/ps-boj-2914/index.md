@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 2914. 저작권"
 date: "2020-07-23T18:44:12.745Z"
-category: "algorithm"
+category: "ps"
 emoji: "🥅"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 5337. 웰컴"
 date: "2020-07-23T19:12:35.125Z"
-category: "algorithm"
+category: "ps"
 emoji: "🎿"
 ---
 

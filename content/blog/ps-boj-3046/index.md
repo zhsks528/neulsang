@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 3046. R2"
 date: "2020-07-23T18:53:42.351Z"
-category: "algorithm"
+category: "ps"
 emoji: "🎪"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 1550. 16진수"
 date: "2020-07-23T18:42:31.466Z"
-category: "algorithm"
+category: "ps"
 emoji: "🥊"
 ---
 

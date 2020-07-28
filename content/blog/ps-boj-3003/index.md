@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 3003. 킹, 퀸, 룩, 비숍, 나이트, 폰"
 date: "2020-07-23T18:51:12.262Z"
-category: "algorithm"
+category: "ps"
 emoji: "♛"
 ---
 

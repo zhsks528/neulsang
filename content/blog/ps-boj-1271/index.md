@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 1271. 엄청난 부자 2"
 date: "2020-07-23T18:31:00.104Z"
-category: "algorithm"
+category: "ps"
 emoji: "🏓"
 ---
 

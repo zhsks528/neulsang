@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 2338. 긴자리 계산"
 date: "2020-07-23T18:32:41.144Z"
-category: "algorithm"
+category: "ps"
 emoji: "⛸"
 ---
 

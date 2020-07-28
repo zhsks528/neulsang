@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 2475. 검증수"
 date: "2020-07-23T18:35:10.145Z"
-category: "algorithm"
+category: "ps"
 emoji: "🏸"
 ---
 

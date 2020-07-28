@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 2845. 파티가 끝나고 난 뒤"
 date: "2020-07-23T18:45:12.874Z"
-category: "algorithm"
+category: "ps"
 emoji: "⛳"
 ---
 
