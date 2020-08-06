@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 2875. 대회 or 인턴"
 date: "2020-07-31T17:26:24.124Z"
-category: "algorithm"
+category: "ps"
 emoji: "🌐"
 ---
 

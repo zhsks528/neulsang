@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 5585. 거스름돈"
 date: "2020-07-31T16:18:22.751Z"
-category: "algorithm"
+category: "ps"
 emoji: "💲"
 ---
 
