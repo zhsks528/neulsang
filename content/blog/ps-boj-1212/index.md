@@ -1,7 +1,7 @@
 ---
 title: "백준알고리즘 - 1212. 8진수 2진수"
 date: "2020-07-31T17:37:20.684Z"
-category: "algorithm"
+category: "ps"
 emoji: "🍇"
 ---
 
