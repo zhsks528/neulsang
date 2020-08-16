@@ -56,6 +56,8 @@ def binary_search(data, search):
         return False
     
     medium = len(data) // 2
+    if search == data[medium]:
+        return True
     
     if search > data[medium]:
         return binary_search(data[medium + 1:], search)
@@ -65,25 +67,14 @@ def binary_search(data, search):
 
 ### 5. 알고리즘 분석
 * n개의 리스트를 매번 2로 나누어 1이 될 때까지 비교연산을 k회 진행
-  - $$
-    n X \frac { 1 }{ 2 } X \frac { 1 }{ 2 } X \frac { 1 }{ 2 } ... = 1
-    $$
+  - n X ( 1/2 ) X ( 1/2 ) X ( 1/2 ) ... = 1
+
+  - n X ( 1/2 )^k = 1
   
-    $$
-    n X \frac { 1 }{ 2 }^k = 1
-    $$
+  - n = 2^k = log_2n = log_2 2^k
   
-    $$
-    n = 2^k = log_2n = log_2 2^k
-    $$
-  
-    
-  
-  - $$
-    log_2 n = k
-    $$
-  
-    
+  - log_2 n = k
+
   
   - 빅 오 표기법으로는 k + 1 이 결국 최종 시간 복잡도임 (1이 되었을 때도, 비교연산을 한번 수행)
     
