@@ -5,19 +5,19 @@ module.exports = {
     description: `한성민의 기술블로그입니다.`,
     siteUrl: `https://catnose99.com`,
     social: {
-      instagram : `hsm950825`,
+      instagram: `hsm950825`,
       github: `zhsks528`,
-      facebook:`hsm950825@naver.com`
+      facebook: `hsm950825@naver.com`,
     },
     categories: [
       {
-        name: "Web",
-        slug: "web",
+        name: "FE",
+        slug: "fe",
         color: "#0c9ee4",
       },
       {
-        name: "Dev",
-        slug: "dev",
+        name: "CS",
+        slug: "cs",
         color: "#f7615f",
       },
       {
@@ -146,6 +146,6 @@ module.exports = {
     `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-fontawesome-css`
+    `gatsby-plugin-fontawesome-css`,
   ],
 };
