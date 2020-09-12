@@ -2,7 +2,7 @@
 title: "RESTful API"
 date: "2020-09-09T21:30:44.551Z"
 category: "fe"
-emoji: "🖥️"
+emoji: "🔥"
 ---
 
 ## RESTful API

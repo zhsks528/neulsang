@@ -2,7 +2,7 @@
 title: "REST API"
 date: "2020-09-09T21:08:22.441Z"
 category: "fe"
-emoji: "🖥️"
+emoji: "🔥"
 ---
 
 ## REST API
